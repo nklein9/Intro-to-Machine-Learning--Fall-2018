@@ -1,5 +1,5 @@
 #Nicholas Klein
-#Created 9/27/18, Last edit 9/27/18
+#Created 9/27/18, Last edit 10/4/18
 #Linear Regression Algorithm for Machine Learning
 
 import numpy as np
