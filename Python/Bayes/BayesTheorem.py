@@ -1,5 +1,5 @@
 #Nicholas Klein
-#Created 10/8/18, Last edit 10/9/18
+#Created 10/8/18, Last edit 10/29/18
 #Bayes Theorem
 
 import numpy as np
@@ -29,6 +29,8 @@ def main():
     lik2 = calcLikelyhood(group2)
     evidence = calcEvidence(group1, group2)
 
+    #calculate Joint probability
+
     #plot everything
     plt.figure()                                                                #Adds a figure
     plt.scatter(group1, lik1, c = 'b')                                          #Scatter of group 1 likelihood
@@ -37,9 +39,15 @@ def main():
     plt.title("Likelyhood")                                                     #Creates a title for figure
     plt.show()                                                                  #displays the figure
 
+def calcProb(lik, prior, evidence):
+    P = np.zeros(16)
+    for i in lik:
+        P[i] = (lik[i] * prior) / evidence[i]
+    return P
+
 def calcEvidence(groupa, groupb):
     bigGroup = []
-    evidence = []
+    evidence = np.zeros(16)
     for i in groupa:
         bigGroup.append(i)
     for i in groupb:
@@ -57,7 +65,7 @@ def genRandom(size, multiplier, shift):
     return ra
 
 def calcLikelyhood(group):
-    count = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]                   #counter to track objects in each container
+    count = np.zeros(16)                                        #counter to track objects in each container
     lik = []                                                    #likelyhood an object in group is in each container
     for i in group:
         if (0 <= i <= 1):
@@ -96,5 +104,6 @@ def calcLikelyhood(group):
             break
     for i in count:
         lik.append(i/len(group))
+    return lik
 
 main()
