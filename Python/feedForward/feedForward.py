@@ -7,6 +7,7 @@
 #   By Jason Brownlee
 
 if __name__ == '__main__':
+
     from tensorflow.python.keras.models import Sequential
     from tensorflow.python.keras.layers import Dense
     import numpy as np
