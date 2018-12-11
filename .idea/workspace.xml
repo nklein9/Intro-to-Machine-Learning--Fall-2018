@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2def87d4-9f05-4fcc-8497-a9a9a2569005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1918">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="204">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="e#130#147#0" expanded="true" />
               </folding>
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -302,12 +302,12 @@
       <workItem from="1544101793554" duration="2106000" />
       <workItem from="1544229298582" duration="1507000" />
       <workItem from="1544394510110" duration="7472000" />
-      <workItem from="1544502831976" duration="736000" />
+      <workItem from="1544502831976" duration="2813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39287000" />
+    <option name="totallyTimeSpent" value="41364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -328,12 +328,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4716714" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.42776203" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.82841825" visible="true" weight="0.15503356" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="4" sideWeight="0.17158177" side_tool="true" visible="true" weight="0.15503356" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8292079" visible="true" weight="0.17248322" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="4" sideWeight="0.17079207" side_tool="true" visible="true" weight="0.17248322" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -402,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1918">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="204">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="e#130#147#0" expanded="true" />
           </folding>

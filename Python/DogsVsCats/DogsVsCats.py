@@ -64,9 +64,9 @@ def process_test_data():
     return testing_data
 
 
-train_data = create_train_data()
+# train_data = create_train_data()
 # If you have already created the dataset:
-# train_data = np.load('train_data.npy')
+train_data = np.load('train_data.npy')
 
 input_shape = [IMG_SIZE, IMG_SIZE, 1]
 
