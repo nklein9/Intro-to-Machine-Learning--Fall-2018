@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2def87d4-9f05-4fcc-8497-a9a9a2569005" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DecisionTree_RandomForest/SingleDecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DecisionTree_RandomForest/SingleDecisionTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/feedForward/feedForward.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+            <state relative-caret-position="-1918">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#130#147#0" expanded="true" />
               </folding>
@@ -251,6 +249,9 @@
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/feedForward" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -275,8 +276,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.feedForward" />
         <item itemvalue="Python.DogsVsCats" />
+        <item itemvalue="Python.feedForward" />
         <item itemvalue="Python.RandomForest" />
         <item itemvalue="Python.SingleDecisionTree" />
         <item itemvalue="Python.Perceptron" />
@@ -301,16 +302,18 @@
       <workItem from="1544101793554" duration="2106000" />
       <workItem from="1544229298582" duration="1507000" />
       <workItem from="1544394510110" duration="7472000" />
+      <workItem from="1544502831976" duration="736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38551000" />
+    <option name="totallyTimeSpent" value="39287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,12 +328,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.67847025" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4716714" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8325991" visible="true" weight="0.1375839" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="4" sideWeight="0.16740088" side_tool="true" visible="true" weight="0.1375839" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.82841825" visible="true" weight="0.15503356" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="4" sideWeight="0.17158177" side_tool="true" visible="true" weight="0.15503356" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -392,15 +395,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/feedForward/feedForward.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="357">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/DogsVsCats/DogsVsCats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+        <state relative-caret-position="-1918">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#130#147#0" expanded="true" />
           </folding>
