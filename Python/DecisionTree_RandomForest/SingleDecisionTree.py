@@ -21,7 +21,6 @@ if __name__ == '__main__':
     array = dataframe.values
     X = array[:, 0:8]
     Y = array[:, 8]
-    max_features = 3
     kfold = model_selection.KFold(n_splits=10, random_state=seed)
     model = DecisionTreeClassifier()
 

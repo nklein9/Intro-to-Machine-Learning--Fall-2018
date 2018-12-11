@@ -19,7 +19,7 @@ from tensorflow.python.keras.models import Sequential
 
 TRAIN_DIR = r'C:\Users\nklei\Documents\Homework\ML DogsVsCatsData\train'
 TEST_DIR = r'C:\Users\nklei\Documents\Homework\ML DogsVsCatsData\test'
-IMG_SIZE = 250
+IMG_SIZE = 100
 batch_size = 128
 num_classes = 2
 epochs = 10
@@ -64,14 +64,14 @@ def process_test_data():
     return testing_data
 
 
-# train_data = create_train_data()
+train_data = create_train_data()
 # If you have already created the dataset:
-train_data = np.load('train_data.npy')
+# train_data = np.load('train_data.npy')
 
 input_shape = [IMG_SIZE, IMG_SIZE, 1]
 
-train = train_data[:-500]
-test = train_data[-500:]
+train = train_data[:-7500]
+test = train_data[-7500:]
 
 
 x_train = np.array([i[0] for i in train])
@@ -99,9 +99,11 @@ print(x_test.shape[0], 'test samples')
 
 # convert class vectors to binary class matrices - this is for use in the
 # categorical_crossentropy loss below
-y_train = tensorflow.keras.utils.to_categorical(y_train, num_classes)
-y_test = tensorflow.keras.utils.to_categorical(y_test, num_classes)
-print('y_train 2: ', y_train.shape)
+# y_train = tensorflow.keras.utils.to_categorical(y_train, num_classes)
+y_train = np.array(y_train)
+# y_test = tensorflow.keras.utils.to_categorical(y_test, num_classes)
+y_test = np.array(y_test)
+# print('y_train 2: ', y_train.shape)
 
 model = Sequential()
 model.add(Conv2D(32, kernel_size=(5, 5), strides=(1, 1),
