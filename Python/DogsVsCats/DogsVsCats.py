@@ -12,7 +12,7 @@ import os                  # dealing with directories
 import matplotlib.pylab as plt
 from random import shuffle # mixing up or currently ordered data that might lead our network astray in training.
 from tqdm import tqdm      # a nice pretty percentage bar for tasks.
-from tensorflow.python.keras.layers import Dense, Flatten
+from tensorflow.python.keras.layers import Dense, Flatten, Dropout
 from tensorflow.python.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.python.keras.models import Sequential
 
@@ -106,9 +106,14 @@ y_test = np.array(y_test)
 # print('y_train 2: ', y_train.shape)
 
 model = Sequential()
+# model.add(Dropout(0.1, input_shape=input_shape))
 model.add(Conv2D(32, kernel_size=(5, 5), strides=(1, 1),
                  activation='relu',
                  input_shape=input_shape))
+model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+model.add(Conv2D(32, (5, 5), activation='relu'))
+model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+model.add(Conv2D(32, (5, 5), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 model.add(Conv2D(64, (5, 5), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
